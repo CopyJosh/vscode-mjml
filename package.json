@@ -62,6 +62,11 @@
       "type": "object",
       "title": "MJML",
       "properties": {
+        "mjml.mjmlConfigPathOutput": {
+          "default": "",
+          "description": "Path of .mjmlconfig file (leave blank for default, will search for .mjmlconfig in the same folder as the mjml file)",
+          "type": "string"
+        },
         "mjml.beautify": {
           "default": {
             "indent_size": 2,
